@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 import { site } from "@/lib/site";
@@ -7,7 +8,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-[100svh] items-end overflow-hidden pt-16"
+      className="relative flex min-h-[100svh] items-end overflow-hidden pt-[6.5rem] lg:pt-16"
     >
       <Image
         src="/brand/brand-cyber-croissant.jpg"
@@ -49,7 +50,7 @@ export function Hero() {
             <Button
               size="lg"
               className="bg-teal px-7 text-navy-deep hover:bg-teal/90"
-              render={<a href="#menu" />}
+              render={<Link href="/menu" />}
             >
               Order for collection
             </Button>
@@ -57,7 +58,7 @@ export function Hero() {
               size="lg"
               variant="outline"
               className="border-cream/35 bg-navy-deep/40 px-7 text-cream hover:bg-cream/10 hover:text-cream"
-              render={<a href="#tech" />}
+              render={<Link href="/tech" />}
             >
               Explore tech services
             </Button>

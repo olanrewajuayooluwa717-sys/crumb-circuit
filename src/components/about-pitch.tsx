@@ -17,7 +17,7 @@ const blocks = [
 
 export function AboutPitch() {
   return (
-    <section id="about" className="relative scroll-mt-20">
+    <section id="pitch" className="relative pt-[6.5rem] lg:pt-16">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgb(58_183_191_/_08%),transparent_55%)]" />
       <div className="section-shell relative">
         <div className="max-w-2xl">

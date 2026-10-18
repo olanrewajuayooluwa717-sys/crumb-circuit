@@ -23,11 +23,12 @@ export const site = {
 };
 
 export const navLinks = [
-  { href: "#menu", label: "Menu & order" },
-  { href: "#tech", label: "Tech services" },
-  { href: "#cakes", label: "Celebration cakes" },
-  { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact" },
+  { href: "/", label: "Home" },
+  { href: "/menu", label: "Menu & order" },
+  { href: "/tech", label: "Tech services" },
+  { href: "/cakes", label: "Celebration cakes" },
+  { href: "/pitch", label: "Business" },
+  { href: "/contact", label: "Contact" },
 ] as const;
 
 export const techServices = [

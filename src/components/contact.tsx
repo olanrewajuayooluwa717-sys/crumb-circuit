@@ -4,7 +4,7 @@ import { site } from "@/lib/site";
 
 export function Contact() {
   return (
-    <section id="contact" className="relative scroll-mt-20">
+    <section id="contact" className="relative pt-[6.5rem] lg:pt-16">
       <div className="section-shell">
         <div className="max-w-2xl">
           <p className="font-heading text-xs tracking-[0.3em] text-teal uppercase">

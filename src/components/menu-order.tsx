@@ -106,7 +106,7 @@ export function MenuOrder() {
   }
 
   return (
-    <section id="menu" className="relative scroll-mt-20">
+    <section id="menu" className="relative pt-[6.5rem] lg:pt-16">
       <div className="section-shell">
         <div className="max-w-2xl">
           <p className="font-heading text-xs tracking-[0.3em] text-teal uppercase">

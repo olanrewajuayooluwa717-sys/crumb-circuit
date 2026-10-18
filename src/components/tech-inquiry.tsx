@@ -55,7 +55,7 @@ export function TechInquiry() {
   }
 
   return (
-    <section id="tech" className="relative scroll-mt-20">
+    <section id="tech" className="relative pt-[6.5rem] lg:pt-16">
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-teal/40 to-transparent" />
       <div className="section-shell">
         <div className="grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:items-start">
